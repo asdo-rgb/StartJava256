@@ -1,30 +1,37 @@
 public class Variable {
-	public static void main (String[] args){
-		byte a;
-		short b;
-		int c;
-		long d;
-		float e;
-		double f;
-		char g;
-		boolean h;
+	public static void main(String[] args) {
+		byte tempWork;
+		tempWork = -10;
 
-		a = -10; /* при какой отрицательной температуре может работать */
-		b = 121; /* объём ЖМД */
-		c = -2018; /* год производства */
-		d = 1000000000; /* количество поддерживаемых цветов */
-		e = 3.141592f; /* число Пи */
-		f = 10.15d; /* версия операционной системы */
-		g = 'A'; /* первая буква фирмы производителя */
-		h = false; /* ложь */
+		short gmdVolume;
+		gmdVolume = 121;
+
+		int yearProduct;
+		yearProduct = -2018;
+
+		long countColor;
+		countColor = 1000000000;
+
+		float piNumber;
+		piNumber = 3.141592f;
+
+		double osVersion;
+		osVersion = 10.15d;
+
+		char firstLetterCompany;
+		firstLetterCompany = 'A';
+
+		boolean paramLie;
+		paramLie = false;
+		 
 	
-		System.out.println(a);
-		System.out.println(b);
-		System.out.println(c);
-		System.out.println(d);
-		System.out.println(e);
-		System.out.println(f);
-		System.out.println(g);
-		System.out.println(h);
+		System.out.println(tempWork);
+		System.out.println(gmdVolume);
+		System.out.println(yearProduct);
+		System.out.println(countColor);
+		System.out.println(piNumber);
+		System.out.println(osVersion);
+		System.out.println(firstLetterCompany);
+		System.out.println(paramLie);
 	}
 }
