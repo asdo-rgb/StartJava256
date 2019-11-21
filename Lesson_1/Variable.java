@@ -1,29 +1,20 @@
 public class Variable {
 	public static void main(String[] args) {
-		byte tempWork;
-		tempWork = -10;
+		byte tempWork = -10;
 
-		short gmdVolume;
-		gmdVolume = 121;
+		short gmdVolume = 121;
 
-		int yearProduct;
-		yearProduct = -2018;
+		int yearProduct = -2018;
 
-		long countColor;
-		countColor = 1000000000;
+		long countColor = 1000000000;
 
-		float piNumber;
-		piNumber = 3.141592f;
+		float piNumber = 3.141592f;
 
-		double osVersion;
-		osVersion = 10.15d;
+		double osVersion = 10.15d;
 
-		char firstLetterCompany;
-		firstLetterCompany = 'A';
+		char firstLetterCompany = 'A';
 
-		boolean paramLie;
-		paramLie = false;
-		 
+		boolean isParamLie = false;
 	
 		System.out.println(tempWork);
 		System.out.println(gmdVolume);
@@ -32,6 +23,6 @@ public class Variable {
 		System.out.println(piNumber);
 		System.out.println(osVersion);
 		System.out.println(firstLetterCompany);
-		System.out.println(paramLie);
+		System.out.println(isParamLie);
 	}
 }
