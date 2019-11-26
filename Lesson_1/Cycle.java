@@ -15,7 +15,7 @@ public class Cycle {
 		int h = 10;
 		int sumOdd = 0;
 		do {
-			if (h%2 != 0) {
+			if (h % 2 != 0) {
 				sumOdd += h;	
 				h++;
 			}
