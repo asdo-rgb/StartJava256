@@ -9,13 +9,13 @@ public class Variable {
 		char firstLetterCompany = 'A';
 		boolean isParamLie = false;
 	
-		System.out.println (tempWork);
-		System.out.println (gmdVolume);
-		System.out.println (yearProduct);
-		System.out.println (countColor);
-		System.out.println (piNumber);
-		System.out.println (osVersion);
-		System.out.println (firstLetterCompany);
-		System.out.println (isParamLie);
+		System.out.println(tempWork);
+		System.out.println(gmdVolume);
+		System.out.println(yearProduct);
+		System.out.println(countColor);
+		System.out.println(piNumber);
+		System.out.println(osVersion);
+		System.out.println(firstLetterCompany);
+		System.out.println(isParamLie);
 	}
 }

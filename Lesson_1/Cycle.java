@@ -1,17 +1,17 @@
 public class Cycle {
 	public static void main(String[] args) {
 		for (int i = 0; i < 21; i++) {
-			System.out.println (i);
+			System.out.println(i);
 		}
 
-		System.out.println ("");
+		System.out.println("");
 		int j = 6;
 		while (j >= -6) {
-			System.out.println (j);
+			System.out.println(j);
 			j -= 2;
 		}
 
-		System.out.println ("");
+		System.out.println("");
 		int h = 10;
 		int sumOdd = 0;
 		do {
@@ -21,6 +21,6 @@ public class Cycle {
 			}
 			h++;
 		} while (h < 20);
-		System.out.println (sumOdd);
+		System.out.println(sumOdd);
 	}
 }
