@@ -13,11 +13,18 @@ public class GuessNumber {
 			System.out.println("Игрок думает, что это " + numberPlayer);
 		
 			if (numberPlayer == numberComputer) {
-				System.out.println("У нас есть победитель!");
-				System.out.println("Конец игры");
+				System.out.println("Игрок угадал!");
 				break; 
 			} else {
-				System.out.println("Игрок должен попробовать еще раз.");
+				if (numberPlayer > numberComputer) {
+					System.out.println("Число игрока больше, чем загаданное компьютером");
+					System.out.println("Игрок должен попробовать еще раз.");
+				}
+				if (numberPlayer < numberComputer) {
+					System.out.println("Число игрока меньше, чем загаданное компьютером");
+					System.out.println("Игрок должен попробовать еще раз.");
+				}
+				
 			}	
 		}
 	}	
