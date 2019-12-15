@@ -14,12 +14,12 @@ public class GuessNumber {
 
 			if (playerNumber > computerNumber) {
 				System.out.println("Число игрока больше, чем загаданное компьютером");
-				System.out.println("Игрок должен попробовать еще раз.");
-				} else if (playerNumber < computerNumber) {
-					System.out.println("Число игрока меньше, чем загаданное компьютером");
-					System.out.println("Игрок должен попробовать еще раз.");
-					}
+				System.out.println("Игрок должен попробовать еще раз.");				
+			} else if (playerNumber < computerNumber) {
+				System.out.println("Число игрока меньше, чем загаданное компьютером");
+				System.out.println("Игрок должен попробовать еще раз.");					
 			}
-	System.out.println("Игрок угадал!");
+		}
+		System.out.println("Игрок угадал!");
 	}	
 }
