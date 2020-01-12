@@ -12,7 +12,7 @@ public class WolfTest {
 		System.out.println("Его кличка - " + wolfFirst.nickname);
 		System.out.println("Он весит - " + wolfFirst.weight + " кг");
 		System.out.println("Ему " + wolfFirst.age + " лет");
-		System.out.println("Его цвет - " +wolfFirst.color);
+		System.out.println("Его цвет - " + wolfFirst.color);
 
 		wolfFirst.move();
 		wolfFirst.sit();
